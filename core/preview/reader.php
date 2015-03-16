@@ -59,6 +59,18 @@ $index_height = get_post_meta( $edition->ID, '_pr_index_height', true );
   <title>Pressroom - Preview</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <?php
+  remove_action('wp_head', 'feed_links', 2);
+  remove_action('wp_head', 'feed_links_extra', 3);
+  remove_action('wp_head', 'rsd_link');
+  remove_action('wp_head', 'wlwmanifest_link');
+  remove_action('wp_head', 'adjacent_posts_rel_link_wp_head', 10, 0);
+  remove_action('wp_head', 'wp_generator');
+  remove_action('wp_head', 'wp_shortlink_wp_head', 10, 0);
+  wp_enqueue_script('jquery');
+  wp_head();
+  ?>
+
   <link rel="stylesheet" href="../../assets/css/preview/preview.ish.min.css">
   <link rel="stylesheet" type="text/css" href="../../assets/css/preview/preview.min.css" />
   <link rel="stylesheet" type="text/css" href="../../assets/css/preview/idangerous.swiper.min.css" />
@@ -170,7 +182,7 @@ $index_height = get_post_meta( $edition->ID, '_pr_index_height', true );
     </div>
   </div>
 </div>
-<script src="../../assets/js/preview/jquery-2.0.3.min.js"></script>
+<script> $ = jQuery;</script>
 <script src="../../assets/js/preview/idangerous.swiper.min.js"></script>
 <script src="../../assets/js/preview/idangerous.swiper.hashnav.min.js"></script>
 <script src="../../assets/js/preview/pr.reader.min.js"></script>
