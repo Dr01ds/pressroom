@@ -35,21 +35,9 @@ An **Edition** can be exported at the same time to an iOS client based on the [B
 3. Connect your Baker Framework iOS App to your editorial project's **endpoint**
 4. Create an **Edition**, review and publish ```;)```
 
-##User Guide
+##Documentation
 
-- [PressRoom settings](../../wiki/PressRoom-settings)
-- [Configuring an Editorial Project](../../wiki/Editorial-Project-settings)
-- [Configuring an Edition](../../wiki/Edition-settings)
-- [Connecting to Baker Framework Apps](../../wiki/Connecting-to-Baker-Framework-Apps)
-- [Adding custom fonts](../../wiki/Custom-fonts)
-- [Other Resources](../../wiki/Other-Resources)
-
-##Dev Docs
-
-- [Theming](../../wiki/Theming)
-- [Api](../../wiki/Api)
-- [Hooks](../../wiki/Hooks)
-- [Customizing the default theme](../../wiki/Customizing-the-default-theme)
+[http://theprintlabs.gitbooks.io/pressroom/](http://theprintlabs.gitbooks.io/pressroom/)
 
 ## How to get support
 Open an issue [here on GitHub](https://github.com/thePrintLabs/pressroom/issues) or head over [http://discourse.press-room.io](http://discourse.press-room.io) for general usage question.
@@ -58,7 +46,7 @@ Open an issue [here on GitHub](https://github.com/thePrintLabs/pressroom/issues)
 
 - fix push notification UI (align with the overall seamless plugin' style)
 - more themes
-- extensive documentation
+- <del>extensive documentation</del>
 
 ##Contributing
 Contributions are always welcomed to further improve this plugin:
