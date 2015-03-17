@@ -26,8 +26,7 @@ An **Edition** can be exported at the same time to an iOS client based on the [B
 1. [Download the package](https://github.com/thePrintLabs/pressroom/archive/master.zip)
 2. Unzip and rename the folder to "pressroom"
 3. Extract or upload it to your ```/wp-content/plugins/``` directory, then activate
-4. You'll be asked to install the [Posts 2 Posts](https://github.com/scribu/wp-posts-to-posts) plugin if it's not present
-5. Set permalinks to ```/%postname%/```
+4. Set permalinks to ```/%postname%/```
 
 ##Quick start
 1. Configure the basic settings
@@ -42,11 +41,9 @@ An **Edition** can be exported at the same time to an iOS client based on the [B
 ## How to get support
 Open an issue [here on GitHub](https://github.com/thePrintLabs/pressroom/issues) or head over [http://discourse.press-room.io](http://discourse.press-room.io) for general usage question.
 
-##Roadmap to v.1.0
+##Roadmap
 
-- fix push notification UI (align with the overall seamless plugin' style)
-- more themes
-- <del>extensive documentation</del>
+[http://discourse.press-room.io/c/roadmap](http://discourse.press-room.io/c/roadmap)
 
 ##Contributing
 Contributions are always welcomed to further improve this plugin:
